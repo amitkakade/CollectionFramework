@@ -12,12 +12,11 @@ import java.util.Vector;
  *
  * @author admin
  */
-public class enumeration {
+public class EnumerationCursor {
 
     /**
      * @param args the command line arguments
      */
-    @SuppressWarnings({"unchecked", "UseOfSystemOutOrSystemErr"})
     public static void main(String[] args) {
         // TODO code application logic here
 
