@@ -12,7 +12,7 @@ import java.util.Set;
  *
  * @author admin
  */
-public class equals {
+public class OverridenSetEquals {
 
     public static void main(String[] args) {
         String s1 = new String("Amit");

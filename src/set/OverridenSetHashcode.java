@@ -12,7 +12,7 @@ import java.util.Set;
  *
  * @author admin
  */
-public class hashcode {
+public class OverridenSetHashcode {
     public static void main(String[] args) {
         String s1 = new String("Amit");
         String s2 = new String("Sumit");
