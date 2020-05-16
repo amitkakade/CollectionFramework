@@ -11,7 +11,8 @@ import java.util.HashSet;
  *
  * @author Amit Kakade
  */
-public class HashSetMethodsIntro {
+public class HashSetPropertiesIntro {
+
     public static void main(String[] args) {
         HashSet h = new HashSet();
         h.add("Z");
@@ -22,4 +23,5 @@ public class HashSetMethodsIntro {
         System.out.println(h.add("Z"));
         System.out.println(h);
     }
+    
 }
