@@ -23,5 +23,5 @@ public class LinkedHashSetPrpertiesIntro {
         System.out.println(lh.add("Z"));
         System.out.println(lh);
     }
-    
+
 }
