@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package set.sortedset.naigableset.treeset;
+package set.sortedset.navigableset.treeset;
 
 import java.util.TreeSet;
 
