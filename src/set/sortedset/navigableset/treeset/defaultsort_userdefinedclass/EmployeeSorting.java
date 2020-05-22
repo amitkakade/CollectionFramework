@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package set.sortedset.navigableset.treeset.customsort_comparator;
+package set.sortedset.navigableset.treeset.defaultsort_userdefinedclass;
 
 import common.classes.Employee;
 import java.util.TreeSet;
@@ -13,12 +13,11 @@ import java.util.TreeSet;
  * @author amit
  */
 public class EmployeeSorting {
-
     public static void main(String[] args) {
-        TreeSet<Employee> employee_tree = new TreeSet<>(new EmployeeCustomComparator());
-        employee_tree.add(new Employee(1, "Amit Kakade", 2.5d));
+        TreeSet<Employee> employee_tree = new TreeSet<>();
+        employee_tree.add(new Employee(3, "Amit Kakade", 2.5d));
         employee_tree.add(new Employee(2, "Pawan Suradkar", 2.5d));
-        employee_tree.add(new Employee(3, "Shubham Kare", 1.0d));
+        employee_tree.add(new Employee(1, "Shubham Kare", 1.0d));
         
         System.out.println("\nDisplaying data by using forEach method");
         employee_tree.forEach(System.out::println);
@@ -29,5 +28,4 @@ public class EmployeeSorting {
         System.out.println("\nDisplaying data by using Stream");
         employee_tree.stream().forEach(System.out::println);
     }
-    
 }

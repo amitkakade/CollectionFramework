@@ -5,6 +5,7 @@
  */
 package set.sortedset.navigableset.treeset.customsort_comparator;
 
+import common.classes.Employee;
 import java.util.Comparator;
 
 /**
