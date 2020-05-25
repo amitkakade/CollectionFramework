@@ -10,7 +10,7 @@ import java.util.HashMap;
 /**
  *
  * Java 1.8v
- * 
+ *
  * compute() - Computes a new value using the specified function. It then
  * associates the computed value to the specified key.
  *
@@ -35,6 +35,14 @@ public class RecomputeFunction {
         System.out.println("Original HashMap: " + hm);
 
         hm.compute("Amit", (key, old_value) -> old_value + 99);
+       
+        /**
+         * For compute() if key is not present then value will be added and no
+         * operation sould be perform on old_value so that any exception will
+         * not occour
+         */
+        hm.compute("Amittt", (key, old_value) -> 99);
+        
         //hm.compute("Sarang", (key, old_value) -> null); // key-value mapping is removed due to null.(1.8v)
         System.out.println("HashMap using compute(): " + hm);
 
@@ -42,7 +50,7 @@ public class RecomputeFunction {
         hm.computeIfAbsent("Bhupesh", key -> null); // Map remains unchanged if we adding null.(1.8v)
         System.out.println("HashMap using computeIfAbsent(): " + hm);
 
-        hm.computeIfPresent("Bhavna", (key, old_value) -> old_value - 1000);
+        hm.computeIfPresent("Bhavnaa", (key, old_value) -> old_value - 1000);
         //hm.computeIfPresent("Bhavna", (key, old_value) -> null); // key-value mapping is removed due to null.(1.8v)
         System.out.println("HashMap using computeIfPresent(): " + hm);
 
