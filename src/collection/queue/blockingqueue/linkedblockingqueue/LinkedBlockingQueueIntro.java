@@ -23,6 +23,7 @@ public class LinkedBlockingQueueIntro {
         linked_queue.add("Amit");
         linked_queue.add(1);
         linked_queue.add(new StringBuffer("Sumit"));
+        //linked_queue.add(null); // Null insertion is not allowed in LBQ
 
         System.out.println("\nHeterogenous elements are inserted in LinkedBlockingQueue");
         System.out.println(linked_queue);
@@ -59,6 +60,7 @@ public class LinkedBlockingQueueIntro {
         for (int i = 0; i < obj_array.length; i++) {
             System.out.println(obj_array[i]);
         }
+        
     }
 
 }
