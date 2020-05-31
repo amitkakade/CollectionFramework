@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package set.linkedhashset;
+package collection.set.linkedhashset;
 
 import java.util.LinkedHashSet;
 

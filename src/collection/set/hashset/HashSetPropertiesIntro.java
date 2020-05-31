@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package set.hashset;
+package collection.set.hashset;
 
 import java.util.HashSet;
 
