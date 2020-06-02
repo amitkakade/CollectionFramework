@@ -48,6 +48,9 @@ public class LinkedListIntro {
         System.out.println("\nRemove first element by using pop()");
         System.out.println(deq.pop());
         System.out.println("\nElementes in the LinkedList after removing element: " + deq);
+        deq.add("Subham"); // at the end of the queue
+        deq.push("Subham"); // at the begning of the queue
+        System.out.println("\nElementes in the LinkedList after removing element: " + deq);
     }
 
 }
